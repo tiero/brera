@@ -3,10 +3,10 @@
 
   const onCancel = () => {
     active = false;
-  }
+  };
 
   const onSubmit = async () => {
-    const psbt = new Psbt();
+    /* const psbt = new Psbt();
     psbt
       .addInput(inputData)
       .addIssuance({
@@ -47,19 +47,18 @@
         },
       ]);
 
-  
+   */
 
     active = false;
-  }
-
+  };
 </script>
 
-<div class="modal is-active" >
-  <div class="modal-background"></div>
+<div class="modal is-active">
+  <div class="modal-background" />
   <div class="modal-card">
     <header class="modal-card-head">
       <p class="modal-card-title">Create your NFT</p>
-      <button class="delete" aria-label="close" on:click={onCancel}></button>
+      <button class="delete" aria-label="close" on:click={onCancel} />
     </header>
     <section class="modal-card-body">
       <!-- Content ... -->
