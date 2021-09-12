@@ -28,7 +28,7 @@
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "webpack serve --content-base public",
     "validate": "svelte-check",
-    "lint": "npx eslint --fix src/**/*.svelte",
+    "lint": "npx eslint src/**/*.svelte",
     "format:check": "npx prettier --check src/**/*.svelte",
     "format": "npx prettier --write src/**/*.svelte"
   },
